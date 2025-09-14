@@ -1,0 +1,111 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.logoutBtn {
+  background-color: #f44336;
+}
+
+.logoutBtn:hover {
+  background-color: #d32f2f;
+}
+
+.notesList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.noteItem {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.noteItemTitle {
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.noteItemContent {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.deleteBtn {
+  background-color: #e53935;
+}
+
+.deleteBtn:hover {
+  background-color: #c62828;
+}
+
+.loginLink {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.loginLink a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
